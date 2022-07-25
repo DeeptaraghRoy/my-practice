@@ -17,6 +17,16 @@ if (a < 0) {
 
 console.log("Done");
 
+// Example - 2. Check if a variable is defined or not.
+
+const vari = 34;
+
+if (typeof vari !== "undefined") {
+  console.log("vari is defined");
+} else {
+  console.log("vari is not defined");
+}
+
 // switch statement
 
 const expr = `HI`;
